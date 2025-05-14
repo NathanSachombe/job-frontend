@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 
-import NavBar from "./Components/NavBar";
-import  AddJob  from "./Pages/addjob";
-import Home from "./Pages/home";
-import LogIn from "./Pages/login";	
-import SignUp from "./Pages/signup";
+import Navbar from "./components/Navbar";
+import  AddJob  from "./pages/addjob";
+import Home from "./pages/home";
+import LogIn from "./pages/login";	
+import SignUp from "./pages/signup";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
