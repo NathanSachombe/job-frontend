@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Home() {
   return (
-    <div>Jobs will appear hear</div>
-  )
+    <div
+      
+    >
+      Jobs will appear here
+    </div>
+  );
 }
 
-export default Home
+export default Home;
