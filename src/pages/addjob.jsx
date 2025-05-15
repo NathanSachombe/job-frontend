@@ -8,7 +8,6 @@ const AddJob = ({ categories = [] }) => {
     companyName: "",
     location: "",
     jobType: "",
-    salary: "",
     description: "",
   });
 
@@ -112,20 +111,7 @@ const AddJob = ({ categories = [] }) => {
         </Form.Group>
       </Row>
 
-      <Form.Group className="mb-3" controlId="salary">
-        <Form.Label style={labelStyle}>Salary</Form.Label>
-        <Form.Control
-          type="number"
-          name="salary"
-          required
-          placeholder="Enter salary"
-          value={formData.salary}
-          onChange={handleChange}
-          style={inputStyle}
-        />
-      </Form.Group>
-
-      <Form.Group className="mb-3" controlId="description">
+           <Form.Group className="mb-3" controlId="description">
         <Form.Label style={labelStyle}>Description</Form.Label>
         <Form.Control
           as="textarea"
